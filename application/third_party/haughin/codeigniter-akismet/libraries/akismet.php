@@ -127,7 +127,7 @@
 			
 			$result = $this->_post($url, $data);
 			
-			return ( $result == 'true' ) TRUE : FALSE;
+			return ( $result == 'true' );
 		}
 		
 		public function check($comment = array())
