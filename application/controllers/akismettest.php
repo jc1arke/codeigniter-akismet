@@ -6,7 +6,7 @@
 		{
 			parent::Controller();
 			
-			$this->load->add_package_path(APPPATH.'third_party/haughin/codeigniter-facebook/');
+			$this->load->add_package_path(APPPATH.'third_party/haughin/codeigniter-akismet/');
 		}
 		
 		function index()
